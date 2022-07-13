@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* i found the row take margin right and left so i found scroll right and left This style to solve this problem */
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* most to used */
+.gray {
+  color: gray;
+}
+/* Start style for first header */
+.First-Header {
+  background-color: #f3f3f3;
+}
+/* start style in search-bar */
+.search-bar {
+  width: 20%;
+  padding-left: 25px;
+}
+/* style for search icon in search bar */
+.search-font {
+  position: absolute;
+  top: 26px;
+  right: 91px;
+}
+/* end style in search bar */
+
+/* start styles in nav bar */
+nav {
+  background-color: black;
+  margin-top: 20px;
+  height: 10vh;
+}
+.active {
+  color: #e77ae0 !important;
+}
+/* start style in  logo*/
+.logo {
+  font-size: 35px;
+  font-family: "Brush Script MT";
+}
+
+/* strat style in div have some cars */
+.TheBest-par {
+  letter-spacing: 0.5rem;
+  color: #e77ae0;
+}
+/* start featured style */
+hr {
+  width: 100%;
+  border: 3px solid black;
+  color: white;
+  min-width: 20px;
+}
+
+.re-active {
+  color: #e77ae0 !important;
+  border-bottom: 2px solid black;
+}
+/* Start style in Feature images */
+.price-of-cars {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: black;
+  color: white;
+}
+.checked {
+  color: #e77ae0 !important;
+}
+/* style of reacts in feautre itmes */
+.img-icons {
+  border: 1px solid gray;
+  padding: 9px;
+  color: gray;
+  font-size: 12px;
+}
+
+/* sty;e of btn load more in trending items */
+.btn-load-more{
+  background-color: white;
+  border: 1px solid gray;
+  padding: 6px 40px 6px 40px;
+  color: black;
+  font-weight: bold;
+}
+
+/* style of footer */
+footer{
+  width: 100%;
+  height: 70vh;
+  background-color: #1d1d1d;
+  margin-top: 5%;
+}
